@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styleElements.css" />
+    <link rel="stylesheet" href="styleMaincontainer.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="maincontainer">
+
+      <div class="elemntdetails">
+        <p class="elementnameheader" id="idelementnameheader"></p>
+        <br>
+        <div class="elementdescription" id="idelementdescription">
+      
+        </div>
+      </div>
+
+      <div class="elementstable" id="idelementstable" onmouseover="displayID(this)">
+        
+        <div class="hydrogen" id="e1" onmouseover="displayDetails(this)">
+          <div class="elementnumber">1</div>
+          <div class="elementinitials">H</div>
+          <div class="elementname">Hydrogen</div>
+        </div>
+
+        <div class="helium" id="e2" onmouseover="displayDetails(this)">
+          <div class="elementnumber">2</div>
+          <div class="elementinitials">He</div>
+          <div class="elementname">Helium</div>
+        </div>
+
+        <!-- row 1 -->
+        <div class="lithium" id="e3" onmouseover="displayDetails(this)">
+          <div class="elementnumber">3</div>
+          <div class="elementinitials">Li</div>
+          <div class="elementname">Lithium</div>
+        </div>
+
+        <div class="beryllium" id="e4" onmouseover="displayDetails(this)">
+          <div class="elementnumber">4</div>
+          <div class="elementinitials">Be</div>
+          <div class="elementname">Beryllium</div>
+        </div>
+
+        <!-- row 2 -->
+
+        <div class="baron" id="e5" onmouseover="displayDetails(this)">
+          <div class="elementnumber">5</div>
+          <div class="elementinitials">B</div>
+          <div class="elementname">Baron</div>
+        </div>
+
+        <div class="carbon" id="e6" onmouseover="displayDetails(this)">
+          <div class="elementnumber">6</div>
+          <div class="elementinitials">C</div>
+          <div class="elementname">Carbon</div>
+        </div>
+
+        <div class="nitrogen" id="e7" onmouseover="displayDetails(this)">
+          <div class="elementnumber">7</div>
+          <div class="elementinitials">N</div>
+          <div class="elementname">Nitrogen</div>
+        </div>
+
+        <div class="oxygen" id="e8" onmouseover="displayDetails(this)">
+          <div class="elementnumber">8</div>
+          <div class="elementinitials">O</div>
+          <div class="elementname">Oxygen</div>
+        </div>
+
+        <div class="flourine" id="e9" onmouseover="displayDetails(this)">
+          <div class="elementnumber">9</div>
+          <div class="elementinitials">F</div>
+          <div class="elementname">Flourine</div>
+        </div>
+
+        <div class="neon" id="e10" onmouseover="displayDetails(this)">
+          <div class="elementnumber">10</div>
+          <div class="elementinitials">Ne</div>
+          <div class="elementname">Neon</div>
+        </div>
+
+        <!-- row 3 -->
+        <div class="sodium" id="e11" onmouseover="displayDetails(this)">
+          <div class="elementnumber">11</div>
+          <div class="elementinitials">Na</div>
+          <div class="elementname">Sodium</div>
+        </div>
+
+        <div class="magnesium" id="e12" onmouseover="displayDetails(this)">
+          <div class="elementnumber">12</div>
+          <div class="elementinitials">Mg</div>
+          <div class="elementname">Magnesium</div>
+        </div>
+
+        <div class="aluminium" id="e13" onmouseover="displayDetails(this)">
+          <div class="elementnumber">13</div>
+          <div class="elementinitials">Al</div>
+          <div class="elementname">Aluminium</div>
+        </div>
+
+        <div class="silicon" id="e14" onmouseover="displayDetails(this)">
+          <div class="elementnumber">14</div>
+          <div class="elementinitials">Si</div>
+          <div class="elementname">Silicon</div>
+        </div>
+
+        <div class="phosphorous" id="e15" onmouseover="displayDetails(this)">
+          <div class="elementnumber">15</div>
+          <div class="elementinitials">P</div>
+          <div class="elementname">Phosphorous</div>
+        </div>
+
+        <div class="sulphur" id="e16" onmouseover="displayDetails(this)">
+          <div class="elementnumber">16</div>
+          <div class="elementinitials">S</div>
+          <div class="elementname">Sulphur</div>
+        </div>
+
+        <div class="chlorine" id="e17" onmouseover="displayDetails(this)">
+          <div class="elementnumber">17</div>
+          <div class="elementinitials">Cl</div>
+          <div class="elementname">Chlorine</div>
+        </div>
+
+        <div class="argon" id="e18" onmouseover="displayDetails(this)">
+          <div class="elementnumber">18</div>
+          <div class="elementinitials">Ar</div>
+          <div class="elementname">Argon</div>
+        </div>
+
+        <!-- row 4 -->
+        <div class="potassium" id="e19" onmouseover="displayDetails(this)">
+          <div class="elementnumber">19</div>
+          <div class="elementinitials">K</div>
+          <div class="elementname">Potassium</div>
+        </div>
+
+        <div class="calcium" id="e20" onmouseover="displayDetails(this)">
+          <div class="elementnumber">20</div>
+          <div class="elementinitials">Ca</div>
+          <div class="elementname">Calcium</div>
+        </div>
+
+        <div class="scandium" id="e21" onmouseover="displayDetails(this)">
+          <div class="elementnumber">21</div>
+          <div class="elementinitials">Sc</div>
+          <div class="elementname">Scandium</div>
+        </div>
+
+        <div class="titanium" id="e22" onmouseover="displayDetails(this)">
+          <div class="elementnumber">22</div>
+          <div class="elementinitials">Ti</div>
+          <div class="elementname">Titanium</div>
+        </div>
+
+        <div class="vanadium" id="e23" onmouseover="displayDetails(this)">
+          <div class="elementnumber">23</div>
+          <div class="elementinitials">Va</div>
+          <div class="elementname">Vanadium</div>
+        </div>
+
+        <div class="chromium" id="e24" onmouseover="displayDetails(this)">
+          <div class="elementnumber">24</div>
+          <div class="elementinitials">Cr</div>
+          <div class="elementname">Chromium</div>
+        </div>
+
+        <div class="manganese" id="e25" onmouseover="displayDetails(this)">
+          <div class="elementnumber">25</div>
+          <div class="elementinitials">Mn</div>
+          <div class="elementname">Manganese</div>
+        </div>
+
+        <div class="iron" id="e26" onmouseover="displayDetails(this)">
+          <div class="elementnumber">26</div>
+          <div class="elementinitials">Fe</div>
+          <div class="elementname">Iron</div>
+        </div>
+
+        <div class="cobalt" id="e27" onmouseover="displayDetails(this)">
+          <div class="elementnumber">27</div>
+          <div class="elementinitials">Co</div>
+          <div class="elementname">Cobalt</div>
+        </div>
+
+        <div class="nickel" id="e28" onmouseover="displayDetails(this)">
+          <div class="elementnumber">28</div>
+          <div class="elementinitials">Ni</div>
+          <div class="elementname">Nickel</div>
+        </div>
+
+        <div class="copper" id="e29" onmouseover="displayDetails(this)">
+          <div class="elementnumber">29</div>
+          <div class="elementinitials">Cu</div>
+          <div class="elementname">Copper</div>
+        </div>
+
+        <div class="zinc" id="e30" onmouseover="displayDetails(this)">
+          <div class="elementnumber">30</div>
+          <div class="elementinitials">Zn</div>
+          <div class="elementname">Zinc</div>
+        </div>
+
+        <div class="gallium" id="e31" onmouseover="displayDetails(this)">
+          <div class="elementnumber">31</div>
+          <div class="elementinitials">Ga</div>
+          <div class="elementname">Gallium</div>
+        </div>
+
+        <div class="germanium" id="e32" onmouseover="displayDetails(this)">
+          <div class="elementnumber">32</div>
+          <div class="elementinitials">Ge</div>
+          <div class="elementname">Germanium</div>
+        </div>
+
+        <div class="arsenic" id="e33" onmouseover="displayDetails(this)">
+          <div class="elementnumber">33</div>
+          <div class="elementinitials">As</div>
+          <div class="elementname">Arsenic</div>
+        </div>
+
+        <div class="selenium" id="e34" onmouseover="displayDetails(this)">
+          <div class="elementnumber">34</div>
+          <div class="elementinitials">Se</div>
+          <div class="elementname">Selenium</div>
+        </div>
+
+        <div class="bromine" id="e35" onmouseover="displayDetails(this)">
+          <div class="elementnumber">35</div>
+          <div class="elementinitials">Br</div>
+          <div class="elementname">Bromine</div>
+        </div>
+
+        <div class="krypton" id="e36" onmouseover="displayDetails(this)">
+          <div class="elementnumber">36</div>
+          <div class="elementinitials">Kr</div>
+          <div class="elementname">Krypton</div>
+        </div>
+
+        <!-- row 5 -->
+
+        <div class="rubidium" id="e37" onmouseover="displayDetails(this)">
+          <div class="elementnumber">37</div>
+          <div class="elementinitials">Rb</div>
+          <div class="elementname">Rubidium</div>
+        </div>
+
+        <div class="strontium" id="e38" onmouseover="displayDetails(this)">
+          <div class="elementnumber">38</div>
+          <div class="elementinitials">Sr</div>
+          <div class="elementname">Strontium</div>
+        </div>
+
+        <div class="yttrium" id="e39" onmouseover="displayDetails(this)">
+          <div class="elementnumber">39</div>
+          <div class="elementinitials">Y</div>
+          <div class="elementname">Yttrium</div>
+        </div>
+
+        <div class="zicronium" id="e40" onmouseover="displayDetails(this)">
+          <div class="elementnumber">40</div>
+          <div class="elementinitials">Zr</div>
+          <div class="elementname">Zicronium</div>
+        </div>
+
+        <div class="niobium" id="e41" onmouseover="displayDetails(this)">
+          <div class="elementnumber">41</div>
+          <div class="elementinitials">Nb</div>
+          <div class="elementname">Niobium</div>
+        </div>
+
+        <div class="molybdenum" id="e42" onmouseover="displayDetails(this)">
+          <div class="elementnumber">42</div>
+          <div class="elementinitials">Mo</div>
+          <div class="elementname">Molybdenum</div>
+        </div>
+
+        <div class="technetium" id="e43" onmouseover="displayDetails(this)">
+          <div class="elementnumber">43</div>
+          <div class="elementinitials">Tc</div>
+          <div class="elementname">Technetium</div>
+        </div>
+
+        <div class="ruthenium" id="e44" onmouseover="displayDetails(this)">
+          <div class="elementnumber">44</div>
+          <div class="elementinitials">Ru</div>
+          <div class="elementname">Ruthenium</div>
+        </div>
+
+        <div class="rhodium" id="e45" onmouseover="displayDetails(this)">
+          <div class="elementnumber">45</div>
+          <div class="elementinitials">Rh</div>
+          <div class="elementname">Rhodium</div>
+        </div>
+
+        <div class="palladium" id="e46" onmouseover="displayDetails(this)">
+          <div class="elementnumber">46</div>
+          <div class="elementinitials">Pd</div>
+          <div class="elementname">Palladium</div>
+        </div>
+
+        <div class="silver" id="e47" onmouseover="displayDetails(this)">
+          <div class="elementnumber">47</div>
+          <div class="elementinitials">Ag</div>
+          <div class="elementname">Silver</div>
+        </div>
+
+        <div class="cadmium" id="e48" onmouseover="displayDetails(this)">
+          <div class="elementnumber">48</div>
+          <div class="elementinitials">Cd</div>
+          <div class="elementname">Cadmium</div>
+        </div>
+
+        <div class="indium" id="e49" onmouseover="displayDetails(this)">
+          <div class="elementnumber">49</div>
+          <div class="elementinitials">In</div>
+          <div class="elementname">Indium</div>
+        </div>
+
+        <div class="tin" id="e50" onmouseover="displayDetails(this)">
+          <div class="elementnumber">50</div>
+          <div class="elementinitials">Sn</div>
+          <div class="elementname">Tin</div>
+        </div>
+
+        <div class="antimony" id="e51" onmouseover="displayDetails(this)">
+          <div class="elementnumber">51</div>
+          <div class="elementinitials">Sb</div>
+          <div class="elementname">Anitmony</div>
+        </div>
+
+        <div class="tellurium" id="e52" onmouseover="displayDetails(this)">
+          <div class="elementnumber">52</div>
+          <div class="elementinitials">Te</div>
+          <div class="elementname">Tellurium</div>
+        </div>
+
+        <div class="iodine" id="e53" onmouseover="displayDetails(this)">
+          <div class="elementnumber">53</div>
+          <div class="elementinitials">I</div>
+          <div class="elementname">Iodine</div>
+        </div>
+
+        <div class="xenon" id="e54" onmouseover="displayDetails(this)">
+          <div class="elementnumber">54</div>
+          <div class="elementinitials">Xe</div>
+          <div class="elementname">Xenon</div>
+        </div>
+
+        <!-- 6th row -->
+
+        <div class="cesium" id="e55" onmouseover="displayDetails(this)">
+          <div class="elementnumber">55</div>
+          <div class="elementinitials">Cs</div>
+          <div class="elementname">Cesium</div>
+        </div>
+
+        <div class="barium" id="e56" onmouseover="displayDetails(this)">
+          <div class="elementnumber">56</div>
+          <div class="elementinitials">Ba</div>
+          <div class="elementname">Barium</div>
+        </div>
+
+        <div class="hafnium" id="e72" onmouseover="displayDetails(this)">
+          <div class="elementnumber">72</div>
+          <div class="elementinitials">Hf</div>
+          <div class="elementname">Hafnium</div>
+        </div>
+
+        <div class="tantalum" id="e73" onmouseover="displayDetails(this)">
+          <div class="elementnumber">73</div>
+          <div class="elementinitials">Ta</div>
+          <div class="elementname">Tantalum</div>
+        </div>
+
+        <div class="tungsten" id="e74" onmouseover="displayDetails(this)">
+          <div class="elementnumber">74</div>
+          <div class="elementinitials">W</div>
+          <div class="elementname">Tungsten</div>
+        </div>
+
+        <div class="rhenium" id="e75" onmouseover="displayDetails(this)">
+          <div class="elementnumber">75</div>
+          <div class="elementinitials">Re</div>
+          <div class="elementname">Rehenium</div>
+        </div>
+
+        <div class="osmium" id="e76" onmouseover="displayDetails(this)">
+          <div class="elementnumber">76</div>
+          <div class="elementinitials">Os</div>
+          <div class="elementname">Osmium</div>
+        </div>
+
+        <div class="iridium" id="e77" onmouseover="displayDetails(this)">
+          <div class="elementnumber">77</div>
+          <div class="elementinitials">Ir</div>
+          <div class="elementname">Iridium</div>
+        </div>
+
+        <div class="platinum" id="e78" onmouseover="displayDetails(this)">
+          <div class="elementnumber">78</div>
+          <div class="elementinitials">Pt</div>
+          <div class="elementname">Platinum</div>
+        </div>
+
+        <div class="gold" id="e79" onmouseover="displayDetails(this)">
+          <div class="elementnumber">79</div>
+          <div class="elementinitials">Au</div>
+          <div class="elementname">Gold</div>
+        </div>
+
+        <div class="mercury" id="e80" onmouseover="displayDetails(this)">
+          <div class="elementnumber">80</div>
+          <div class="elementinitials">Hg</div>
+          <div class="elementname">Mercury</div>
+        </div>
+
+        <div class="thallium" id="e81" onmouseover="displayDetails(this)">
+          <div class="elementnumber">81</div>
+          <div class="elementinitials">Tl</div>
+          <div class="elementname">Thallim</div>
+        </div>
+
+        <div class="lead" id="e82" onmouseover="displayDetails(this)">
+          <div class="elementnumber">82</div>
+          <div class="elementinitials">Pb</div>
+          <div class="elementname">Lead</div>
+        </div>
+
+        <div class="bismuth" id="e83" onmouseover="displayDetails(this)">
+          <div class="elementnumber">83</div>
+          <div class="elementinitials">Bi</div>
+          <div class="elementname">Bismuth</div>
+        </div>
+
+        <div class="polonium" id="e84" onmouseover="displayDetails(this)">
+          <div class="elementnumber">84</div>
+          <div class="elementinitials">Po</div>
+          <div class="elementname">Polonium</div>
+        </div>
+
+        <div class="astatine" id="e85" onmouseover="displayDetails(this)">
+          <div class="elementnumber">85</div>
+          <div class="elementinitials">At</div>
+          <div class="elementname">Astatine</div>
+        </div>
+
+        <div class="radon" id="e86" onmouseover="displayDetails(this)">
+          <div class="elementnumber">86</div>
+          <div class="elementinitials">Rn</div>
+          <div class="elementname">Radon</div>
+        </div>
+
+        <!-- this is the 7th row -->
+
+        <div class="francium" id="e87" onmouseover="displayDetails(this)">
+          <div class="elementnumber">87</div>
+          <div class="elementinitials">Fr</div>
+          <div class="elementname">Francium</div>
+        </div>
+
+        <div class="radium" id="e88" onmouseover="displayDetails(this)">
+          <div class="elementnumber">88</div>
+          <div class="elementinitials">Ra</div>
+          <div class="elementname">Radium</div>
+        </div>
+
+        <div class="rutherfordium" id="e104" onmouseover="displayDetails(this)">
+          <div class="elementnumber">104</div>
+          <div class="elementinitials">Rf</div>
+          <div class="elementname">Rutherfordium</div>
+        </div>
+
+        <div class="dubnium" id="e105" onmouseover="displayDetails(this)">
+          <div class="elementnumber">105</div>
+          <div class="elementinitials">Db</div>
+          <div class="elementname">Dubnium</div>
+        </div>
+
+        <div class="seaborgium" id="e106" onmouseover="displayDetails(this)">
+          <div class="elementnumber">106</div>
+          <div class="elementinitials">Sg</div>
+          <div class="elementname">Seaborgium</div>
+        </div>
+
+        <div class="bohrium" id="e107" onmouseover="displayDetails(this)">
+          <div class="elementnumber">107</div>
+          <div class="elementinitials">Bh</div>
+          <div class="elementname">Bohrium</div>
+        </div>
+
+        <div class="hasium" id="e108" onmouseover="displayDetails(this)">
+          <div class="elementnumber">108</div>
+          <div class="elementinitials">Hs</div>
+          <div class="elementname">Hasium</div>
+        </div>
+
+        <div class="meitnerium" id="e109" onmouseover="displayDetails(this)">
+          <div class="elementnumber">109</div>
+          <div class="elementinitials">Mt</div>
+          <div class="elementname">Meitnerium</div>
+        </div>
+
+        <div class="darmstadtium" id="e110" onmouseover="displayDetails(this)">
+          <div class="elementnumber">110</div>
+          <div class="elementinitials">Ds</div>
+          <div class="elementname">Darmstadtium</div>
+        </div>
+
+        <div class="roentgenium" id="e111" onmouseover="displayDetails(this)">
+          <div class="elementnumber">111</div>
+          <div class="elementinitials">Rg</div>
+          <div class="elementname">Roentgenium</div>
+        </div>
+
+        <div class="copernicium" id="e112" onmouseover="displayDetails(this)">
+          <div class="elementnumber">112</div>
+          <div class="elementinitials">Cn</div>
+          <div class="elementname">Copernicium</div>
+        </div>
+
+        <div class="nihonium" id="e113" onmouseover="displayDetails(this)">
+          <div class="elementnumber">113</div>
+          <div class="elementinitials">Nh</div>
+          <div class="elementname">Nihonium</div>
+        </div>
+
+        <div class="flerovium" id="e114" onmouseover="displayDetails(this)">
+          <div class="elementnumber">114</div>
+          <div class="elementinitials">Fl</div>
+          <div class="elementname">Flerovium</div>
+        </div>
+
+        <div class="moscovium" id="e115" onmouseover="displayDetails(this)">
+          <div class="elementnumber">115</div>
+          <div class="elementinitials">Mc</div>
+          <div class="elementname">Moscovium</div>
+        </div>
+
+        <div class="livermorium" id="e116" onmouseover="displayDetails(this)">
+          <div class="elementnumber">116</div>
+          <div class="elementinitials">Lv</div>
+          <div class="elementname">Livermorium</div>
+        </div>
+
+        <div class="tennessine" id="e117" onmouseover="displayDetails(this)">
+          <div class="elementnumber">117</div>
+          <div class="elementinitials">Ts</div>
+          <div class="elementname">Tennessine</div>
+        </div>
+
+        <div class="oganesson" id="e118" onmouseover="displayDetails(this)">
+          <div class="elementnumber">118</div>
+          <div class="elementinitials">Og</div>
+          <div class="elementname">Oganesson</div>
+        </div>
+        
+          <!-- 8th row -->
+
+        <div class="lanthanum" id="e57" onmouseover="displayDetails(this)">
+            <div class="elementnumber">57</div>
+            <div class="elementinitials">La</div>
+            <div class="elementname">Lanthanum</div>
+          </div>
+
+          <div class="cerium" id="e58" onmouseover="displayDetails(this)">
+            <div class="elementnumber">58</div>
+            <div class="elementinitials">Ce</div>
+            <div class="elementname">Cerium</div>
+          </div>
+          
+          <div class="praseodymium" id="e59" onmouseover="displayDetails(this)">
+            <div class="elementnumber">59</div>
+            <div class="elementinitials">Pr</div>
+            <div class="elementname">Praseodymium</div>
+          </div>
+
+          <div class="neodymium" id="e60" onmouseover="displayDetails(this)">
+            <div class="elementnumber">60</div>
+            <div class="elementinitials">Nd</div>
+            <div class="elementname">Neodymium</div>
+          </div>
+
+          <div class="promethium" id="e61" onmouseover="displayDetails(this)">
+            <div class="elementnumber">61</div>
+            <div class="elementinitials">Pm</div>
+            <div class="elementname">Promethium</div>
+          </div>
+
+          <div class="samarium" id="e62" onmouseover="displayDetails(this)">
+            <div class="elementnumber">62</div>
+            <div class="elementinitials">Sm</div>
+            <div class="elementname">Samarium</div>
+          </div>
+
+          <div class="europium" id="e63" onmouseover="displayDetails(this)">
+            <div class="elementnumber">63</div>
+            <div class="elementinitials">Eu</div>
+            <div class="elementname">Europium</div>
+          </div>
+
+          <div class="gadolinium" id="e64" onmouseover="displayDetails(this)">
+            <div class="elementnumber">64</div>
+            <div class="elementinitials">Gd</div>
+            <div class="elementname">Gadolinium</div>
+          </div>
+
+          <div class="terbium" id="e65" onmouseover="displayDetails(this)">
+            <div class="elementnumber">65</div>
+            <div class="elementinitials">Tb</div>
+            <div class="elementname">Terbium</div>
+          </div>
+
+          <div class="dysprosium" id="e66" onmouseover="displayDetails(this)">
+            <div class="elementnumber">66</div>
+            <div class="elementinitials">Dy</div>
+            <div class="elementname">Dysprosium</div>
+          </div>
+
+          <div class="holmium" id="e67" onmouseover="displayDetails(this)">
+            <div class="elementnumber">67</div>
+            <div class="elementinitials">Ho</div>
+            <div class="elementname">Holmium</div>
+          </div>
+
+          <div class="erbium" id="e68" onmouseover="displayDetails(this)">
+            <div class="elementnumber">68</div>
+            <div class="elementinitials">Er</div>
+            <div class="elementname">Erbium</div>
+          </div>
+
+          <div class="thulium" id="e69" onmouseover="displayDetails(this)">
+            <div class="elementnumber">69</div>
+            <div class="elementinitials">Tm</div>
+            <div class="elementname">Thulium</div>
+          </div>
+
+          <div class="ytterbium" id="e70" onmouseover="displayDetails(this)">
+            <div class="elementnumber">70</div>
+            <div class="elementinitials">Yt</div>
+            <div class="elementname">Ytterbium</div>
+          </div>
+
+
+          <div class="lutetium" id="e71" onmouseover="displayDetails(this)">
+            <div class="elementnumber">71</div>
+            <div class="elementinitials">Lu</div>
+            <div class="elementname">Lutetium</div>
+          </div>
+
+          <!-- 9th row -->
+          
+          <div class="actinium" id="e89" onmouseover="displayDetails(this)">
+            <div class="elementnumber">89</div>
+            <div class="elementinitials">Ac</div>
+            <div class="elementname">Actinium</div>
+          </div>
+
+          <div class="thorium" id="e90" onmouseover="displayDetails(this)">
+            <div class="elementnumber">90</div>
+            <div class="elementinitials">Th</div>
+            <div class="elementname">Thorium</div>
+          </div>
+
+          <div class="protactinium" id="e91" onmouseover="displayDetails(this)">
+            <div class="elementnumber">91</div>
+            <div class="elementinitials">Pa</div>
+            <div class="elementname">Protactinium</div>
+          </div>
+
+          <div class="uranium" id="e92" onmouseover="displayDetails(this)">
+            <div class="elementnumber">92</div>
+            <div class="elementinitials">U</div>
+            <div class="elementname">Uranium</div>
+          </div>
+
+          <div class="neptunium" id="e93" onmouseover="displayDetails(this)">
+            <div class="elementnumber">93</div>
+            <div class="elementinitials">Np</div>
+            <div class="elementname">Neptunium</div>
+          </div>
+
+          <div class="plutonium" id="e94" onmouseover="displayDetails(this)">
+            <div class="elementnumber">94</div>
+            <div class="elementinitials">Pu</div>
+            <div class="elementname">Plutonium</div>
+          </div>
+
+          <div class="americium" id="e95" onmouseover="displayDetails(this)">
+            <div class="elementnumber">95</div>
+            <div class="elementinitials">Am</div>
+            <div class="elementname">Americium</div>
+          </div>
+
+          <div class="curium" id="e96" onmouseover="displayDetails(this)">
+            <div class="elementnumber">96</div>
+            <div class="elementinitials">Cm</div>
+            <div class="elementname">Curium</div>
+          </div>
+
+          <div class="berkelium" id="e97" onmouseover="displayDetails(this)">
+            <div class="elementnumber">97</div>
+            <div class="elementinitials">Bk</div>
+            <div class="elementname">Berkelium</div>
+          </div>
+
+          <div class="californium" id="e98" onmouseover="displayDetails(this)">
+            <div class="elementnumber">98</div>
+            <div class="elementinitials">Cf</div>
+            <div class="elementname">Californium</div>
+          </div>
+
+          <div class="einsteinium" id="e99" onmouseover="displayDetails(this)">
+            <div class="elementnumber">99</div>
+            <div class="elementinitials">Es</div>
+            <div class="elementname">Einsteinium</div>
+          </div>
+
+          <div class="fermium" id="e100" onmouseover="displayDetails(this)">
+            <div class="elementnumber">100</div>
+            <div class="elementinitials">Fm</div>
+            <div class="elementname">Fermium</div>
+          </div>
+
+          <div class="mendelevium" id="e101" onmouseover="displayDetails(this)">
+            <div class="elementnumber">101</div>
+            <div class="elementinitials">Md</div>
+            <div class="elementname">Mendelevium</div>
+          </div>
+
+          <div class="nobelium" id="e102" onmouseover="displayDetails(this)">
+            <div class="elementnumber">102</div>
+            <div class="elementinitials">No</div>
+            <div class="elementname">Nobelium</div>
+          </div>
+
+          <div class="lawrencium" id="e103" onmouseover="displayDetails(this)">
+            <div class="elementnumber">103</div>
+            <div class="elementinitials">Lr</div>
+            <div class="elementname">Lawrencium</div>
+          </div>
+
+      </div>
+    </div>
+
+    <script src="elementsScript.js"></script>
+  </body>
+</html>
